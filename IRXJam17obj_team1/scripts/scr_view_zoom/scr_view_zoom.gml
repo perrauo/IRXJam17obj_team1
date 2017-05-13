@@ -19,8 +19,6 @@ if(camera_get_view_width(cam) >= 1280 && amount > 1)
 return; //exit script (max reached)
 
 
-show_debug_message(amount);
-
 //get the offsets
 var offx = abs(camera_get_view_width(cam)*amount -camera_get_view_width(cam));
 var offy = abs(camera_get_view_height(cam)*amount -camera_get_view_height(cam));
