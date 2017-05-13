@@ -18,7 +18,7 @@ velocity[vec2_y] += grav;
 
 //move and contact tiles
 //tile size: 32
-scr_move_and_contact_tile(tilemap_id_collision, 32, velocity);
+scr_move_and_contact_tile(tilemap_id_collision, 16, velocity);
 
 
 //jumping 
