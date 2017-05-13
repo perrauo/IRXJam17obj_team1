@@ -9,9 +9,6 @@
 //save curr time
 time = current_time;
 
-		
-with(obj_ctrl_shd)//apply shd
-{
-	toggle_shd_transition_in = true
-}
+toggle_shd_transition_in = true
+
 //end init trans in

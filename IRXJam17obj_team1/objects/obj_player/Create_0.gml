@@ -4,7 +4,7 @@
 velocity = [0,0]; //players velocity
 grav = 1.5; 
 jmp_spd = 28;
-max_velocity = [8, 32];
+max_velocity = [8, 16];
 acc = 2.1;
 
 grounded = false;

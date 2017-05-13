@@ -14,10 +14,10 @@ if(x_spd = 0)// apply fric
 }
 
 //Gravity
-velocity[vec2_y] += grav;
+velocity[vec2_y] = clamp(velocity[vec2_y]+grav, -max_velocity[vec2_y], max_velocity[vec2_y]);
 
 //move and contact tiles
-//tile size: 32
+//tile size: 16
 scr_move_and_contact_tile(tilemap_id_collision, 16, velocity);
 
 
@@ -25,7 +25,6 @@ scr_move_and_contact_tile(tilemap_id_collision, 16, velocity);
 //were are checking one pixel below the player
 grounded = scr_tile_collide_at_points(tilemap_id_collision , [bbox_left, bbox_bottom], [bbox_right-1, bbox_bottom])
 
-show_debug_message(grounded);
 
 if(grounded)
 {

@@ -10,7 +10,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "0582ee8f-d65f-48df-92cb-24466a533601",
-        "90bae32e-24c5-43cf-84c7-3a3eeba5d7ee"
+        "90bae32e-24c5-43cf-84c7-3a3eeba5d7ee",
+        "0e8d6920-04db-4167-82c7-29f31600ce6a"
     ],
     "layers": [
         {
@@ -83,6 +84,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "0e8d6920-04db-4167-82c7-29f31600ce6a",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_18926CE4",
+                    "x": 96,
+                    "y": 32,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_18926CE4",
+                    "objId": "3c54ce40-762a-4317-874a-92cf1f87ab7f",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -105,7 +130,7 @@
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
-            "name": "Tiles_1",
+            "name": "lay_tiles_collision",
             "userdefined_depth": false,
             "visible": true,
             "prev_tileheight": 32,

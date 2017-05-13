@@ -42,13 +42,11 @@ case "SMOOTH_TRACKING_PLAYER":
 
 if(!collision_rectangle(x-cam_wbound/2, y-cam_hbound/2, x+cam_wbound/2, y+cam_hbound/2, player, true, true)) //if not in cam bound
 {
-		//in_cam_bound = false;
-		//alarm_set(0,in_bound_delay); //if 30 frames inside bound then in_boun = true
-		
+				
 		//if(x != player.x)
-		x += (player.x - x) *.01; 
+		x += (player.x - x) * smooth_tracking_spd; 
 		//if(y != player.y) 
-		y += (player.y - y) *.01;
+		y += (player.y - y) * smooth_tracking_spd;
 		
 }
 	

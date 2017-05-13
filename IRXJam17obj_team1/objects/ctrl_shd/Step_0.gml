@@ -16,7 +16,7 @@ scr_apply_transition(shd_transition_in, framesElapsed); //trans in
 //turn off shaders if needed
 //if 240 frames elapse: turn off shader
 if(framesElapsed>120.0)
-obj_ctrl_shd.toggle_shd_transition_in = false;
+toggle_shd_transition_in = false;
 
 //end application of transition
 }

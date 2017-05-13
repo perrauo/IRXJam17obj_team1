@@ -26,6 +26,11 @@ player = instance_find(obj_player,0);
 cam_wbound = 256;
 cam_hbound = 192;
 in_cam_bound = true;//inside cam boundaries
+
+
+smooth_tracking_spd = .02; 
+
+
 in_bound_delay = 10;
 
 
