@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 w = c_white;
-font= fnt_small;
+font= fnt_buttons;
 
 btn_txt = "Play";
 

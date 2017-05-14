@@ -26,6 +26,10 @@ mug_state = STATE_MUG.ANNOYED;
 
 coffee_color = c_maroon;
 
+smoke_xoffset = 0;
+timer1 = 0;
+
 
 //debug txt
 deb_text = "";
+

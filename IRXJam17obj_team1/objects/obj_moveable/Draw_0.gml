@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 
-
 //x1	The x coordinate of the left side of the rectangle to check.
 //y1	The y coordinate of the top side of the rectangle to check.
 //x2	The x coordinate of the right side of the rectangle to check.

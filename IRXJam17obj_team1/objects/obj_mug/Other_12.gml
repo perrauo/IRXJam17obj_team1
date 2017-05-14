@@ -18,7 +18,7 @@ if(receiving)
 	scale = lerp(scale, receiving_size, .2);
 	var ingredient = instance_place(x,y, obj_ingredient);
 	
-	if(mouse_check_button_released(mouse_button))//add ingre when mouse butt releas
+	if(mouse_check_button_released(mb_any))//add ingre when mouse butt releas
 	{
 		ds_list_add(list_ingredient, ingredient.name);
 	
@@ -29,7 +29,9 @@ else
 scale = lerp(scale, 1, .2);
 
 
-////print ingr
+
+
+//////print ingr
 //var i = 0;
 //var s = "";
 //repeat(ds_list_size(list_ingredient))
