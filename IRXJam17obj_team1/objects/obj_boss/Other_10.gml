@@ -16,6 +16,13 @@ switch boss_state
 	
 	case STATE_BOSS.TALKING:
 	instance_deactivate_object(obj_icon_door);
+	
+	if(!audio_is_playing(snd_talk))
+	{
+	audio_sound_pitch(snd_talk, 2);
+	audio_play_sound(snd_talk, 1, false);
+	}
+	
 	sprite_index = spr_talking;  //set correct sprite
 	
 	break;

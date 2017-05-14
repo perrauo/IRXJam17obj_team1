@@ -5,9 +5,6 @@ text_size = string_length(curr_text); //size of the full text
 
 var norm_tl_pos = timer_text/100;//normalized timer 0 -> 1;
 
-
-show_debug_message(norm_tl_pos);
-
 //if all text is displayed accelerate timeline to reach next event
 if(norm_tl_pos > 1)
 timeline_speed += 10;

@@ -45,7 +45,7 @@ switch state
 	case STATE_MUG.ANNOYED:
 	with(obj_boss)
 	{	
-	timeline_index = tl_boss_interaction1;
+	timeline_index = choose(tl_boss_interaction1_A, tl_boss_interaction1_B, tl_boss_interaction1_C, tl_boss_interaction1_D, tl_boss_interaction1_E);
 	timeline_running = true;
 	
 	//assign correct sprites
@@ -57,7 +57,7 @@ switch state
 	case STATE_MUG.PISSED: //TODO ADD angry
 	with(obj_boss)
 	{	
-	timeline_index = tl_boss_interaction2;
+	timeline_index = choose(tl_boss_interaction2_A, tl_boss_interaction2_B, tl_boss_interaction2_C, tl_boss_interaction2_D);
 	timeline_running = true;
 	
 	//assign correct sprites
@@ -70,7 +70,7 @@ switch state
 	case STATE_MUG.DRUNK:
 	with(obj_boss)
 	{	
-	timeline_index = tl_boss_interaction3;
+	timeline_index = choose(tl_boss_interaction3_A, tl_boss_interaction3_B, tl_boss_interaction3_C);
 	timeline_running = true;
 	
 	//assign correct sprites
@@ -83,7 +83,7 @@ switch state
 	case STATE_MUG.FIRE:
 	with(obj_boss)
 	{	
-	timeline_index = tl_boss_interaction4;
+	timeline_index = choose(tl_boss_interaction4_A, tl_boss_interaction4_B, tl_boss_interaction4_C);
 	timeline_running = true;
 	
 	//assign correct sprites
@@ -95,7 +95,7 @@ switch state
 	case STATE_MUG.SPEEDY:
 	with(obj_boss)
 	{	
-	timeline_index = tl_boss_interaction5;
+	timeline_index = choose(tl_boss_interaction5_A, tl_boss_interaction5_B, tl_boss_interaction5_C);
 	timeline_running = true;
 	
 	spr_idle = spr_boss_speedy;
@@ -107,7 +107,7 @@ switch state
 	case STATE_MUG.WEIRD:
 	with(obj_boss)
 	{	
-	timeline_index = tl_boss_interaction6;
+	timeline_index = choose(tl_boss_interaction6_A, tl_boss_interaction6_B, tl_boss_interaction6_C);
 	timeline_running = true;
 	
 	spr_idle= spr_boss_idle;

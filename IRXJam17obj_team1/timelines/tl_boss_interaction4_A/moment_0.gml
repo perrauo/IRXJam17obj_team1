@@ -1,0 +1,1 @@
+boss_state = STATE_BOSS.FREE

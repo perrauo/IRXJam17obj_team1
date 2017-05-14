@@ -1,5 +1,6 @@
 /// @description MASTER CONTROL PROGRAM
 //persistent across levels
+randomize(); //randomize seed value
 
 #macro depth_background 400
 #macro depth_middleground 0;

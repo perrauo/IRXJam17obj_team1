@@ -15,3 +15,5 @@ if(keyboard_check_pressed(ord("C")))
 {
 	global.cups_count = 6;
 }
+
+

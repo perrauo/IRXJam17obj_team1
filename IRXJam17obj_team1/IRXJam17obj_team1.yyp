@@ -42,7 +42,7 @@
             "Key": "01e9aa85-efab-46cd-97ec-3392d47ee1a4",
             "Value": {
                 "id": "e79724ec-24f0-4360-9066-634a51f764c9",
-                "resourcePath": "timelines\\tl_boss_interaction1\\tl_boss_interaction1.yy",
+                "resourcePath": "timelines\\tl_boss_interaction1_A\\tl_boss_interaction1_A.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "04306ec8-fa24-4eb3-9a9b-b7ca76bdf1c4",
+            "Value": {
+                "id": "8361f76e-24f0-4615-a57f-be5a5af5a229",
+                "resourcePath": "timelines\\tl_boss_interaction3_C\\tl_boss_interaction3_C.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "04afa607-b669-47da-8d57-665e612cdd0f",
             "Value": {
                 "id": "891369d6-1e7d-4e44-92d5-1e7e18f5becb",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "0af0fe92-c07d-4b78-b2ac-66128e781b12",
+            "Value": {
+                "id": "7e7821ea-31b8-4d3a-abba-29a9d9f74b1c",
+                "resourcePath": "timelines\\tl_boss_interaction2_C\\tl_boss_interaction2_C.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "0b157744-00df-45de-85c8-2b3aa8460377",
             "Value": {
                 "id": "4cb1a712-ff49-4b62-8d7a-679937a32f69",
@@ -111,14 +127,6 @@
             }
         },
         {
-            "Key": "0ef88896-893b-4712-8867-4dc69571709f",
-            "Value": {
-                "id": "8511dc3b-2ecf-4d4a-89ab-479fd84f39ea",
-                "resourcePath": "objects\\obj_button_back\\obj_button_back.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0f6b6532-2c12-486f-9470-c704324180b2",
             "Value": {
                 "id": "57fd493a-fc16-43a6-b03c-a0355a38a1c4",
@@ -130,7 +138,7 @@
             "Key": "163b206f-fa79-4d52-8ce9-04b184cb4f4c",
             "Value": {
                 "id": "a9f087b9-1107-4b48-83a2-d5b5b0c10e98",
-                "resourcePath": "timelines\\tl_boss_interaction2\\tl_boss_interaction2.yy",
+                "resourcePath": "timelines\\tl_boss_interaction2_A\\tl_boss_interaction2_A.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -175,14 +183,6 @@
             }
         },
         {
-            "Key": "1e6d6d11-4bf8-4932-849c-7a4505f032e1",
-            "Value": {
-                "id": "eab43432-01e7-4523-aaa4-f2061c6c3bff",
-                "resourcePath": "objects\\obj_menu_button\\obj_menu_button.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1e88cf92-7533-482b-83d1-1d2c13485b37",
             "Value": {
                 "id": "54da27f6-bc5f-46e2-95ac-a08df5349151",
@@ -212,6 +212,14 @@
                 "id": "647ed51e-f24c-47f4-a9d0-aa1f816ab6c4",
                 "resourcePath": "sprites\\spr_boss_fire\\spr_boss_fire.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "279d8a37-ae19-4dd5-ac8f-09eb3e05e76c",
+            "Value": {
+                "id": "db28b243-b807-4876-90f6-6cd518c16aab",
+                "resourcePath": "timelines\\tl_boss_interaction1_B\\tl_boss_interaction1_B.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -295,11 +303,27 @@
             }
         },
         {
+            "Key": "40c3aebc-5510-4a74-81eb-bcc482dc277f",
+            "Value": {
+                "id": "d439be61-c449-435b-8f40-075558deb1c5",
+                "resourcePath": "timelines\\tl_boss_interaction1_E\\tl_boss_interaction1_E.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "43a878c4-668a-4275-82ec-84b814f51adb",
             "Value": {
                 "id": "a7698898-e654-4b6d-a867-55c28d9cadf7",
                 "resourcePath": "objects\\obj_cursor\\obj_cursor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "46f4f212-948c-4056-abcb-b3511557caf0",
+            "Value": {
+                "id": "dc0a4b5f-9cde-4e8b-82a1-c455a90f322b",
+                "resourcePath": "timelines\\tl_boss_interaction0\\tl_boss_interaction0.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -351,6 +375,14 @@
             }
         },
         {
+            "Key": "55dfaa55-5f93-4d1e-8d21-cd40cde42b0c",
+            "Value": {
+                "id": "e398edc6-0f6c-4233-ab2c-ce862bacd3f1",
+                "resourcePath": "timelines\\tl_boss_interaction6_C\\tl_boss_interaction6_C.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "5953a8ad-ece3-46c2-ad28-124f6f53b9ce",
             "Value": {
                 "id": "7c01fd91-e053-4638-9ff3-cfaf72ac3b09",
@@ -399,6 +431,14 @@
             }
         },
         {
+            "Key": "64c6a9ac-4004-4bdd-9e16-478e3e056dd5",
+            "Value": {
+                "id": "87f2e975-d476-418c-9185-eb24dcc02f03",
+                "resourcePath": "timelines\\tl_boss_interaction2_D\\tl_boss_interaction2_D.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "6523d7bc-bf7f-4f39-b9cb-59c071790071",
             "Value": {
                 "id": "86ef24a4-fd2f-4467-9d37-7addefd4002a",
@@ -439,11 +479,11 @@
             }
         },
         {
-            "Key": "6ac0e42a-1bbb-4376-8a12-9f98dcea8e68",
+            "Key": "69892fd6-433f-4a56-a926-eb9dbf58d240",
             "Value": {
-                "id": "c8296045-5e33-4bff-b4ed-2ecb4159804a",
-                "resourcePath": "objects\\obj_button_quit\\obj_button_quit.yy",
-                "resourceType": "GMObject"
+                "id": "d735a25c-1e9a-4e6f-b6f5-786d63f46349",
+                "resourcePath": "timelines\\tl_boss_interaction5_C\\tl_boss_interaction5_C.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -458,7 +498,7 @@
             "Key": "6ed8738c-83fa-4b2e-995a-54b4e2a092a4",
             "Value": {
                 "id": "b290f8df-8238-435a-9efe-440d74a30be3",
-                "resourcePath": "timelines\\tl_boss_interaction5\\tl_boss_interaction5.yy",
+                "resourcePath": "timelines\\tl_boss_interaction5_A\\tl_boss_interaction5_A.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -503,18 +543,18 @@
             }
         },
         {
-            "Key": "7b51abdd-d589-485a-8ef4-60bc4f92275a",
+            "Key": "7dc90a00-ab72-4861-a26b-8d4b525e5108",
             "Value": {
-                "id": "18ee960b-17ee-43e6-9890-b67d94d8276f",
-                "resourcePath": "views\\7b51abdd-d589-485a-8ef4-60bc4f92275a.yy",
-                "resourceType": "GMFolder"
+                "id": "5e632b28-05dc-40e7-a09c-0a858a3a2183",
+                "resourcePath": "timelines\\tl_boss_interaction2_B\\tl_boss_interaction2_B.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
             "Key": "7f73c244-a3db-4f3a-9ff7-138674302b21",
             "Value": {
                 "id": "0aeb8431-3032-4980-b68d-67db280f1e98",
-                "resourcePath": "timelines\\tl_boss_interaction6\\tl_boss_interaction6.yy",
+                "resourcePath": "timelines\\tl_boss_interaction6_A\\tl_boss_interaction6_A.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -527,11 +567,11 @@
             }
         },
         {
-            "Key": "882b9e4b-4a7e-4941-8f5d-8f11b1c13141",
+            "Key": "8956acc4-6b25-493d-9ffb-c49a5c023721",
             "Value": {
-                "id": "8bac5b64-10e3-48eb-8048-cc261c643200",
-                "resourcePath": "objects\\obj_text1\\obj_text1.yy",
-                "resourceType": "GMObject"
+                "id": "b2590092-cb85-4279-be1b-13c44246f934",
+                "resourcePath": "timelines\\tl_boss_interaction4_C\\tl_boss_interaction4_C.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -575,27 +615,19 @@
             }
         },
         {
-            "Key": "95594b4f-4ee7-4b1b-8d82-5ae05c92797c",
-            "Value": {
-                "id": "bc710c00-60e4-467c-9e7a-896bd58dcc59",
-                "resourcePath": "objects\\obj_button_play\\obj_button_play.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9928653d-f93d-43a6-a62e-1edee6828765",
-            "Value": {
-                "id": "a165862f-3dba-4a56-b903-b07e831fc707",
-                "resourcePath": "objects\\obj_menu_text\\obj_menu_text.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "99493498-be1b-430b-be4d-f0e55daba7ad",
             "Value": {
                 "id": "c00346cb-75b3-48a0-8b9b-b2c2c7b3752b",
                 "resourcePath": "sprites\\spr_boss_idle\\spr_boss_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a978b3f-8290-4e08-a2c9-640d333c27c4",
+            "Value": {
+                "id": "a4dcd00e-78ff-49ec-9df2-3bb1134d4618",
+                "resourcePath": "timelines\\tl_boss_interaction4_B\\tl_boss_interaction4_B.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -618,7 +650,7 @@
             "Key": "9c33949d-baad-43c4-9f1d-0d1da718c12a",
             "Value": {
                 "id": "cf29ffc6-6557-42a6-be9a-65cbd5e5401d",
-                "resourcePath": "timelines\\tl_boss_interaction3\\tl_boss_interaction3.yy",
+                "resourcePath": "timelines\\tl_boss_interaction3_A\\tl_boss_interaction3_A.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -687,6 +719,22 @@
             }
         },
         {
+            "Key": "ad8a2ac4-c3fc-4fbf-a4ca-a606514b586a",
+            "Value": {
+                "id": "6669296f-c793-4110-88a2-a820b276daf2",
+                "resourcePath": "timelines\\tl_boss_interaction1_C\\tl_boss_interaction1_C.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "adf9b290-f33f-4d7e-9cb1-f396fdcceb7d",
+            "Value": {
+                "id": "e3893c55-1973-49cd-89d5-75eaaa451776",
+                "resourcePath": "timelines\\tl_boss_interaction3_B\\tl_boss_interaction3_B.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "b19aee37-29aa-48af-9341-b03617187587",
             "Value": {
                 "id": "acfffb5e-1b65-42ef-b4db-0720b114034e",
@@ -708,14 +756,6 @@
                 "id": "b47cbfc6-bc63-4be3-9a5d-f679417036aa",
                 "resourcePath": "views\\b4785079-c218-4188-b297-a859a9265d23.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b6e299ba-a20e-4d1a-8de3-8e98bc95a765",
-            "Value": {
-                "id": "4fcea423-87e3-4bf9-9362-fc59ac090b20",
-                "resourcePath": "timelines\\tl_boss_interaction0\\tl_boss_interaction0.yy",
-                "resourceType": "GMTimeline"
             }
         },
         {
@@ -783,6 +823,14 @@
             }
         },
         {
+            "Key": "d2bfc833-4052-40a1-b820-a8301417f3e9",
+            "Value": {
+                "id": "6a2d199a-2108-4cdd-9eea-203ac1b7130c",
+                "resourcePath": "timelines\\tl_boss_interaction5_B\\tl_boss_interaction5_B.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "d4b2bd5b-7bd9-4f95-aa9e-f8b2576d6c42",
             "Value": {
                 "id": "b4174395-f10e-49e9-ae03-a6a5c9ca4a4e",
@@ -812,6 +860,22 @@
                 "id": "99d9dc34-c3b6-43ba-9be5-72dadad28f3d",
                 "resourcePath": "sprites\\spr_debug1\\spr_debug1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de79d4f5-1959-45c7-ba25-830baa0d9a67",
+            "Value": {
+                "id": "75edd7a1-b39f-4a9b-a96b-1e75851408c4",
+                "resourcePath": "timelines\\tl_boss_interaction6_B\\tl_boss_interaction6_B.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "e38e1abb-4454-430e-85c4-62cd43c0639b",
+            "Value": {
+                "id": "203d59db-7bf7-434a-96e4-0a0f680474ec",
+                "resourcePath": "timelines\\tl_boss_interaction1_D\\tl_boss_interaction1_D.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -866,7 +930,7 @@
             "Key": "ec56ca5c-7456-4236-b363-e25fd736d635",
             "Value": {
                 "id": "03e5b1b0-60c9-4418-a7a9-11a429190103",
-                "resourcePath": "timelines\\tl_boss_interaction4\\tl_boss_interaction4.yy",
+                "resourcePath": "timelines\\tl_boss_interaction4_A\\tl_boss_interaction4_A.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -884,6 +948,14 @@
                 "id": "d7ff3491-7dd7-48e3-a808-956fc8489588",
                 "resourcePath": "views\\eddbae05-b306-4ed4-9554-5795a33ef7ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee810ec8-2c5e-4ac9-adcb-671b702e204f",
+            "Value": {
+                "id": "7fe9e279-f269-4e5d-8979-23692916c8f0",
+                "resourcePath": "sounds\\snd_talk\\snd_talk.yy",
+                "resourceType": "GMSound"
             }
         },
         {

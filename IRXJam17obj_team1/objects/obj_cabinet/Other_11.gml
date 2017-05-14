@@ -7,8 +7,7 @@ if (mouse_check_button_pressed(mb_any) && (!receiving))
 	var list_size = ds_list_size(list_ingredient);
 	var ingr = ds_list_find_value(list_ingredient, list_size-1); //picks las one
 	
-	show_debug_message(ingr);
-	
+		
 	switch ingr
 	{
 		case "milk":

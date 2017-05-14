@@ -21,11 +21,11 @@ draw_surface(surface_screen1,0,0); //draw screen overlay
 //reset shaders so that they dot get applied elsewhere
 shader_reset();
 
-if(toggle_shd_approach_bord)
-shader_set(shd_approach_bord)
-draw_surface(surface_screen1,0,0); //draw screen overlay
-//reset shaders so that they dot get applied elsewhere
-shader_reset();
+//if(toggle_shd_approach_bord)
+//shader_set(shd_approach_bord)
+//draw_surface(surface_screen1,0,0); //draw screen overlay
+////reset shaders so that they dot get applied elsewhere
+//shader_reset();
 
 
 

@@ -18,8 +18,6 @@ timer1 += .5;
 
 smoke_xoffset = sin(timer1)*5;
 
-show_debug_message(mug_state);
-
 
 if(!mug_empty)
 {

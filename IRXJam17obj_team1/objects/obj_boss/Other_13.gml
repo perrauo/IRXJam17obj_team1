@@ -8,32 +8,50 @@ if(instance_exists(ctrl_timelines))//if controller exists
 		switch ctrl_timelines.state
 		{
 			case STATE_MUG.ANNOYED:
-			shake_amount = 1.1;
+			shake_amount = 0;
+			
+			audio_sound_gain(snd_talk, 1, 1);
+			audio_sound_pitch(snd_talk, 2);
 			
 			break;
 			
 			case STATE_MUG.PISSED:
 			shake_amount = 2;
 			
+			audio_sound_gain(snd_talk, 2, 2);
+			audio_sound_pitch(snd_talk, 3);
+			
 			break;
 			
 			case STATE_MUG.DRUNK:
 			shake_amount = 1.02;
+			
+			audio_sound_gain(snd_talk, .5, .5);
+			audio_sound_pitch(snd_talk, .5);
 			
 			break;
 			
 			case STATE_MUG.FIRE:
 			shake_amount = 2.2;
 			
+			audio_sound_gain(snd_talk, 4, 4);
+			audio_sound_pitch(snd_talk, 4);
+			
 			break;
 			
 			case STATE_MUG.WEIRD:
 			shake_amount = 1;
 			
+			audio_sound_gain(snd_talk, 4, 4);
+			audio_sound_pitch(snd_talk, 4);
+			
 			break;
 			
 			case STATE_MUG.SPEEDY:
 			shake_amount = 2;
+			
+			audio_sound_gain(snd_talk, 4, 4);
+			audio_sound_pitch(snd_talk, 4);
 			
 			break;
 			

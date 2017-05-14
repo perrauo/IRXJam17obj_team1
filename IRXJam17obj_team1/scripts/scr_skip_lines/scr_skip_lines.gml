@@ -19,7 +19,7 @@ for(var i= 1; i<= string_length(s); i++)
 			
 	if((string_length(sub_string)% char_numb) == 0) && (string_length(sub_string) != 0)  //if need to skip a line
 	{
-		if(char_1 != " ") //skip line if white space
+		if(char != " ") //skip line if white space
 		sub_string += "-"; 
 	
 		sub_string += "\n"; //skip line
